@@ -1,0 +1,95 @@
+/*foreach($consul_compro as $compro)
+{
+
+	$compro['id_comprobante'];
+	$resul_compro=$compro['id_comprobante'];
+	$registrar_compro= mysqli_query($conexion,"call sp_registrar_comprobante('$resul_compro')");
+
+}*/
+
+/*$nombre_producto=$_POST['NombreProducto'];
+$precio_producto=$_POST['precioProducto'];
+$cantidad_producto=$_POST['cantidadProducto'];*/
+
+/*if($insertar_vendedor>=1)
+
+{
+    header ("location:imprimir_boleta.php");
+}
+
+
+else
+
+{
+
+echo ("Error");
+}*/
+
+
+
+/*$consulta_vendedor=mysqli_query($conexion,"select * from tbl_vendedor WHERE id_vendedor = (SELECT MAX(id_vendedor) FROM tbl_vendedor)");*/
+
+
+
+
+  /*foreach ($consulta_vendedor as $dato) 
+  {
+
+  		 $dato['id_vendedor'];
+  		$ids=$dato['id_vendedor'];
+  		
+  }*/
+ 
+/*for($i =0 ;$i<sizeof($nombre_producto);++$i)
+{
+$insertar_producto= mysqli_query($conexion,
+	"call sp_registrar_producto
+	('".$nombre_producto[$i].
+"','".$precio_producto[$i]."',
+'".$cantidad_producto[$i]."')");
+	 }
+$query= mysqli_query($conexion,"SELECT @@identity AS id");
+ if ($row = mysqli_fetch_row($query)) 
+ {
+   $id = trim($row[0]);
+   echo $id;
+ }
+$consulta_producto=mysqli_query($conexion,
+	"select * from tbl_producto
+ WHERE id_producto = (SELECT MAX(id_producto)
+  FROM tbl_producto)");*/
+
+
+
+
+ /*foreach ($consulta_producto as $pro) 
+  {
+
+  		 $pro['id_producto'];
+  		$idpro=$pro['id_producto'];
+  		
+  }*/
+
+
+
+
+/*$insertar_detalle=mysqli_query($conexion,"call sp_deta_vende_pro('$ids','$id')");
+	
+if ($insertar_detalle>=1)
+
+ {
+    echo '<h2> Aqui se debe generar la boleta </h2>';
+    echo $id;
+    echo $idpro;
+}
+
+
+else
+
+{
+
+echo ("Error");
+}*/
+
+
+/*$consulta_local=mysqli_query($conexion,"select nombres_vendedor,fecha_reserva_inicio,dni_dueno,nomb_lcl,ubicacion from tbl_vendedor a INNER JOIN tbl_local b on a.id_locales = b.id_locales;");*/
