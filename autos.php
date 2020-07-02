@@ -1,4 +1,4 @@
-<?php
+cvvcvcvc<?php
 include 'model/conexion.php';
 $sentencia = $bd->query('select * from vehiculo where Modelo_idModelo = 2');
 $vehiculo = $sentencia->fetchAll(PDO::FETCH_OBJ);
