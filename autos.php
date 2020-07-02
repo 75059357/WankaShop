@@ -29,7 +29,7 @@ $vehiculo = $sentencia->fetchAll(PDO::FETCH_OBJ);
         <?php
           foreach ($vehiculo as $dato) {
         ?>
-
+jhjhjkbhk
         <div class="col-md-4 text-center mt-4">
           <a href="detalle-vehiculo.php?codigo=<?php echo $dato->idVehiculo ?>"><img src="img/<?php echo $dato->foto ?>" class="img-fluid"></a>
           <h2> <?php echo $dato->nomVehiculo; ?> </h2>
